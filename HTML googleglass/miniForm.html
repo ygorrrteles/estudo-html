@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>teste</title>
+</head>
+
+<body>
+	<form action="#" method="POST" target="_blank" enctype="multipart/form-data">
+		<label>Nome</label>
+	  <input type="text" name="nome"/>
+		<br/>
+		
+		<label>Nome inicializado</label>
+	  <input type="text" name="nomeiniciado" value="Nome qualquer"/> 
+		<br/>
+<br/>
+		
+	  <textarea placeholder="Descrição" name="descrição" rows="5"></textarea>
+		<br/>
+		
+		<label>Receber noticias</label>
+	  <input type="checkbox" name="noticias"/>
+		<br/>
+		
+		<label>Gênero</label>
+	  <input type="radio" name="genero" value="M"/> Masculino
+	  <input type="radio" name="genero" value="F"/> Feminino
+		<br/>
+		
+		<label>Estados</label>
+		<select>
+			<option value="GO">Goiás</option>
+			<option value="SP">São Paulo</option>	
+		</select>
+		<br/>
+		
+		<label>Arquivo</label>
+		<input type="file" name"arquivo" accept="image/x"/>
+		<br/><br/>
+		
+		<input type="submit" name="submit" value="Enviar"/>
+		<input type="reset" name="reset" value="Limpar"/>
+	</form>
+</body>
+</html>
